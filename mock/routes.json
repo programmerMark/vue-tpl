@@ -1,0 +1,5 @@
+{
+  "/mock/*": "/$1",
+  "/man/:name": "/persons?name=:name",
+  "/man?id=:id": "/persons/:id"
+}

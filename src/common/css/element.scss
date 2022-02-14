@@ -1,0 +1,29 @@
+/** 
+ * 覆盖element-ui的默认样式变量，只需要重写你需要的即可
+ * 覆盖主题色（此处变量值为示例代码，请根据实际情况进行修改）
+ */
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    "primary": (
+      "base": #e03d3e,
+    ),
+    "success": (
+      "base": #21ba45,
+    ),
+    "warning": (
+      "base": #f2711c,
+    ),
+    "danger": (
+      "base": #db2828,
+    ),
+    "error": (
+      "base": #db2828,
+    ),
+    "info": (
+      "base": #42b8dd,
+    ),
+  ),
+  $button-padding-horizontal: (
+    "default": 80px,
+  )
+);
